@@ -1,0 +1,129 @@
+body {
+    margin: 20px 40px;
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+  
+  /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+  .wrapper {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+
+  /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+  .redExample {
+    flex: 1;
+    background-color: red;
+  }
+  
+  /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+  .blueExample {
+    flex: 1;
+    background-color: blue;
+  }
+  
+  /*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+  .emptyExample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  
+  .blueExample2 {
+    width: 80px;
+    background-color: blue;
+  }
+  
+  /* TODO: Add CSS for the rest of your solution below */
+  .container1 .redbox {
+    flex: 1;
+    background-color: red;
+  }
+
+  .container1 .greenbox {
+    flex: 16;
+  }
+
+  .container1 .bluebox {
+    flex: 1;
+    background-color: blue;
+  }
+
+  .container2 .redbox {
+    flex: 17;
+    background-color: red;
+  }
+
+  .container2 .bluebox {
+    flex: 1;
+    background-color: blue;
+  }
+  
+  .container3 {
+    justify-content: center;
+  }
+
+  .container3 .redbox {
+    background-color: red;
+    width:40px;
+    margin: 10px 0 10px 0;
+  }
+
+  .container4 {
+    justify-content: center;
+    background-color: red;
+  }
+
+  .container4 .bluebox {
+    width: 80px;
+    background-color: blue;
+  }
+
+  .container5 {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+  }
+
+  .container5 .redbox {
+    background-color: red;
+  }
+
+  .container5 .bluebox {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+  }
+
+  .container5 .bluebox .greenbox {
+    background-color: green;
+    height: 20px;
+    width: 100%;
+  }
+
+  .container6 .orangebox {
+    width: 80px;
+    height: 100%;
+    background-color: orange;
+  }
+
+  .container6 .greenbox {
+    flex: 1;
+    background-color: green;
+  }
+
+  .container7 .orangebox {
+    background-color: orange;
+    flex: 1;
+  }
+
+  .container7 .greenbox {
+    background-color: green;
+    width: 20px;
+  }
