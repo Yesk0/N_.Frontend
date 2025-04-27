@@ -462,30 +462,47 @@ a:hover {
     margin: 0 23.32px 0 16px;
   }
 
+  .description {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .container-2 {
-    justify-content: space-between;
-    gap: 0;
+    flex-direction: column-reverse;
+    gap: 50px;
     width: 100%;
     margin: 0 17px 0 16px;
   }
   .info-1 {
+    align-items: center;
     height: 354px;
   }
   .text-title {
+    display: flex;
+    justify-content: center;
     font-size: 43px;
     line-height: 60px;
   }
+  .text-p {
+    text-align: center;
+  }
   .image__left,
   .image__left-girl {
-    height: 408px;
+    width: 495px;
+    height: 335px;
   }
   .image__left-girl-dollar {
-    height: 169px;
+    width: 111px;
+    height: 145px;
   }
   .image__left-girl-fire {
-    height: 160px;
+    width: 118px;
+    height: 145px;
   }
 
+  .hiw {
+    padding-top: 53px;
+    padding-bottom: 53px;
+  }
   .container-3 {
     margin: 0 16px 0 16px;
   }
@@ -534,28 +551,48 @@ a:hover {
   .info-4 {
     margin: 0;
   }
+  .text-3{
+    align-items: center;
+  }
   .text-title-3 {
+    text-align: center;
     font-size: 43px;
     line-height: 60px;
   }
-
+  .text-description-3 {
+    text-align: center;
+  }
+  .search {
+    width: 360px;
+  }
+  
+  .InputField {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .container-5 {
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
     padding: 0 16px 0 16px;
-    gap: 0;
+    gap: 128px;
+  }
+  .text-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   .text-title-4 {
     font-size: 43px;
     line-height: 54px;
   }
   .VC {
-    height: 418px;
-    width: 600px;
+    height: 335px;
+    width: 495px;
   }
   .boy {
-    height: 418px;
-    width: 600px;
+    height: 335px;
+    width: 495px;
   }
   .star {
     height: 92px;
@@ -566,66 +603,32 @@ a:hover {
     width: 70.95px;
   }
 
+
+  .container-6 {
+    margin: 0 16px 0 16px;
+  }
   .frame-22 {
     flex-direction: column;
     justify-content: space-between;
     gap: 0;
   }
-  .container-6 {
-    margin: 0 16px 0 16px;
-  }
   .extras {
     justify-content: center;
   }
-}
-@media (max-width: 1131px) {
-  .info-1 {
-    height: 400px;
-  }
-  .text-p {
-    width: 250px;
-    height: 100%;
-  }
-
-  .text-title-4 {
-    display: flex;
-    justify-content: center;
-    width: 150px;
-  }
-  .text-description-4 {
-    width: 250px;
-    height: 100%;
-  }
-  .info-5 {
-    width: 300px;
+  .menu-text {
+    width: auto;
   }
 }
 @media (max-width: 945px) {
-  .image__left,
-  .image__left-girl {
-    width: 400px;
+  .container-3 {
+    height: auto;
+    padding: 54px 0 54px 0;
+    gap: 54px;
   }
-  .image__left-girl-dollar {
-    width: 67px;
-    height: 176px;
-  }
-  .image__left-girl-fire {
-    width: 72px;
-    height: 167px;
-  }
-
-  .VC,
-  .boy {
-    width: 400px;
-    height: 408px;
-  }
-  .star {
-    height: 94px;
-    width: 47px;
-  }
-  .lightning {
-    height: 143px;
-    width: 42px;
+  .frame-18 {
+    flex-direction: column;
+    width: 300px;
+    gap: 40px;
   }
 
   .menu-text {
@@ -684,28 +687,15 @@ a:hover {
     width: 95.33px;
   }
 
-  .container-3 {
-    height: auto;
-    padding: 54px 0 54px 0;
-    gap: 54px;
-  }
-  .frame-18 {
-    flex-direction: column;
-    width: 300px;
-    gap: 40px;
-  }
-
   .container-4 {
     justify-content: center;
     padding-bottom: 67px;
     padding-top: 67px;
   }
   .text-title-3 {
-    text-align: center;
     width: 400px;
   }
   .text-description-3 {
-    text-align: center;
     width: 400px;
   }
   .frame-1 {
@@ -744,15 +734,6 @@ a:hover {
   }
   .info-5 {
     width: 400px;
-  }
-  .text-4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .text-title-4 {
-    width: auto;
   }
   .text-description-4 {
     width: 400px;
