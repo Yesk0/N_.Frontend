@@ -68,11 +68,14 @@ body {
 .wrapper {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .header {
   align-items: center;
-  height: 62px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .container-1 {
   display: flex;
@@ -141,7 +144,6 @@ a {
 .container-2 {
   display: flex;
   gap: 165px;
-  height: 620px;
   align-items: center;
 }
 .info-1 {
@@ -185,9 +187,8 @@ a {
 }
 .image__left {
   position: relative;
-  width: fit-content;
-  width: auto;
-  height: auto;
+  width: 619px;
+  height: 420px;
 }
 .image__left-girl {
   border-radius: 32px;
@@ -205,6 +206,8 @@ a {
 .hiw {
   background-color: rgba(225, 222, 231, 1);
   border-radius: 32px;
+  padding-top: 103px;
+  padding-bottom: 103px;
 }
 .container-3 {
   display: flex;
@@ -212,7 +215,6 @@ a {
   justify-content: center;
   align-items: center;
   gap: 86px;
-  height: 562px;
 }
 .info-2 {
   display: flex;
@@ -271,8 +273,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .info-4 {
   margin-right: 523px;
@@ -324,15 +324,20 @@ a {
   width: 58px;
 }
 
+.CVS {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
 .container-5 {
   display: flex;
   align-items: center;
-  height: 548px;
   padding-right: 38px;
   gap: 128px;
 }
 .VC {
   position: relative;
+  width: 619px;
+  height: 420px;
 }
 .lightning {
   position: absolute;
